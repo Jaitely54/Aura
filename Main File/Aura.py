@@ -15,6 +15,7 @@ warnings.simplefilter('ignore')
 
 # Creating a function for the voice of the Assistant
 
+#  Comment for testing
 
 def speak(text):
     engine = pyttsx3.init()
@@ -94,7 +95,6 @@ def get_weather(api_key, city):
     try:
         response = requests.get(base_url, params=params)
         data = response.json()
-
         if response.status_code == 200:
             weather_description = data['weather'][0]['description']
             temperature = data['main']['temp']
