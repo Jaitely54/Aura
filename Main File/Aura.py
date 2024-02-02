@@ -15,8 +15,6 @@ warnings.simplefilter('ignore')
 
 # Creating a function for the voice of the Assistant
 
-#  Comment for testing
-
 def speak(text):
     engine = pyttsx3.init()
     voices = engine.getProperty('voices')
