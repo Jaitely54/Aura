@@ -1,7 +1,17 @@
 #                                                             RADHE RADHE
 #?                                             A.U.R.A.(Assistant for User Response and Automation)
 
+#-----------------------------------------------------------
+#! importing libraries
+#-----------------------------------------------------------
+import pyttsx3
+import speech_recognition as sr
+import datetime
+import requests
+import os
 
+import warnings 
+warnings.simplefilter("ignore")
 
 #-----------------------------------------------------------
 print("\nHey there, I am AURA, an AI-powered Desktop Assistant")
